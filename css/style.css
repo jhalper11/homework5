@@ -64,7 +64,7 @@ footer{
 } 
 
 #logo{
-   /*Your code here.*/
+   flex-grow: 25px 420px;
  
 }
 
@@ -72,6 +72,8 @@ footer{
 .pricing{
     min-height: 500px;
     /*Your code here.*/
+    vertical-align: center;
+    text-align: center;
     /*Don't forget to vertically and horizontally alight the card*/
   
 }
@@ -82,6 +84,7 @@ footer{
   border-radius: 7px;
   padding: 0 0 50px 0;
   /*Your code here.*/
+  initial-size: 400px;
   /*Take a look at flex-basis*/
 
 }
@@ -146,6 +149,7 @@ header{
 
 .nav_links{
   /*Your code here again.*/
+
 }
 
 .nav_item a{
@@ -165,6 +169,7 @@ header{
   /* Cards! */
   .card {
     /*Your  code here again.*/
+    initial-size: 225px;
   }
 
   .card_big{
