@@ -75,8 +75,9 @@ footer{
 .pricing{
     min-height: 500px;
     display: flex;
-    vertical-align: center;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     /*Don't forget to vertically and horizontally alight the card*/
   
 }
@@ -135,6 +136,7 @@ footer{
 .gallery{
   min-height: 600px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .gallery > img{
@@ -148,11 +150,14 @@ header{
   background: #fff;
   border-bottom: 3px solid #50C7C7;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .nav_links{
   display: flex;
-
+  justify-content: space-around;
 }
 
 .nav_item a{
@@ -183,10 +188,13 @@ header{
   /* Navbar */
   header{
     display: flex; 
+    justify-content: center;
+    align-items: center;
   }
 
   .nav_links{
     display: flex; 
+    justify-content: space-around;
   }
 
   .nav_item a{
