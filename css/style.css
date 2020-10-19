@@ -54,24 +54,27 @@ footer{
 /*Keyframes for animation*/
 
 @-webkit-keyframes logo_wiggle{
-  /*Your code here.*/
+  from {width: 25px;}
+  to {width: 420px;}
 
 }
 
 @keyframes logo_wiggle{
-  /*Your code here.*/
+  from {width: 25px;}
+  to {width: 420px;}
 
 } 
 
 #logo{
-   flex-grow: 25px 420px;
+   animation-name: logo_wiggle;
+   animation-duration: 15s;
  
 }
 
 /* Cards! */
 .pricing{
     min-height: 500px;
-    /*Your code here.*/
+    display: flex;
     vertical-align: center;
     text-align: center;
     /*Don't forget to vertically and horizontally alight the card*/
@@ -83,7 +86,7 @@ footer{
   background: #fff;
   border-radius: 7px;
   padding: 0 0 50px 0;
-  /*Your code here.*/
+  display: flex;
   initial-size: 400px;
   /*Take a look at flex-basis*/
 
@@ -131,7 +134,7 @@ footer{
 /* Gallery! */
 .gallery{
   min-height: 600px;
-  /*Your code here again.*/
+  display: flex;
 }
 
 .gallery > img{
@@ -144,11 +147,11 @@ footer{
 header{
   background: #fff;
   border-bottom: 3px solid #50C7C7;
-  /*Your  code here again.*/
+  display: flex;
 }
 
 .nav_links{
-  /*Your code here again.*/
+  display: flex;
 
 }
 
@@ -168,7 +171,7 @@ header{
 
   /* Cards! */
   .card {
-    /*Your  code here again.*/
+    display: flex;
     initial-size: 225px;
   }
 
@@ -179,11 +182,11 @@ header{
 
   /* Navbar */
   header{
-    /*Your code here again.*/  
+    display: flex; 
   }
 
   .nav_links{
-    /*Your code here again.*/  
+    display: flex; 
   }
 
   .nav_item a{
@@ -193,6 +196,7 @@ header{
 
 @media print { 
   .card {
+    display: flex;
     flex-basis: 200px;
   }
   /*Your code here again.*/
