@@ -139,6 +139,7 @@ footer{
   flex-wrap: wrap;
   flex-direction: row;
   align-items: baseline;
+  justify-content: center;
 }
 
 .gallery > img{
