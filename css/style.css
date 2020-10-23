@@ -70,10 +70,7 @@ footer{
    animation-duration: 15s;
 
 }
-.resize-animation-stopper{
-  animation: none !important;
-  transition: none !important;
-}
+
 /* Cards! */
 .pricing{
     min-height: 500px;
