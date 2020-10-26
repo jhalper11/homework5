@@ -208,8 +208,18 @@ header{
 
 @media print { 
   .card {
-    display: flex;
     flex-basis: 200px;
+  }
+  .pricing {
+    align-items: flex-start;
+
+  }
+  .gallery, #gallery {
+    display: none;
+
+  }
+  body{
+    background-image: none;
   }
   /*Your code here again.*/
   /*You will want four selectors*/  
@@ -217,3 +227,8 @@ header{
 
 /*Your code here again.*/ 
 /*Add media query to handle reduced-motion*/
+@media (prefers-reduced-motion){
+  #logo {
+    animation: none;
+  }
+}
